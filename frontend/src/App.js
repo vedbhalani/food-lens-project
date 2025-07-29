@@ -33,7 +33,7 @@ function App() {
     formData.append('image', image);
 
     try {
-      const response = await fetch('https://food-lens-api.onrender.com/analyze-food', {, {
+      const response = await fetch('https://food-lens-api.onrender.com/analyze-food',  {
         method: 'POST',
         body: formData,
       });
